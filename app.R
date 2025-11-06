@@ -5,6 +5,7 @@ library(readr)
 library(htmltools)
 library(tidyr)
 library(bslib)
+library(tibble)
 
 # Load transition data
 transition_data <- read_csv("transition_matrices_percent.csv")[-1]
